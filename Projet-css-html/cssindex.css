@@ -1,12 +1,18 @@
 @media screen and (max-width:768px)
  {
-
-aside{display:none}
-li a {display: block;}
-section{width: 100%;}
-.test{  
-    font-size: 1rem;
+     body{margin: 0;}
+aside{display: none;}
+ul{display: flex;}
+ul{margin-left: 1px;}
+li{margin-left: 20px;}
+a{text-decoration: none;
 }
+
+li a {display: block;}
+section{width: 100%;
+margin: 20px;}
+.test{font-size: 1rem;}
+
 
 }
 @media screen and (min-width: 768px)
@@ -22,38 +28,51 @@ section{width: 100%;}
 
 html{
     font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
-.resp{width: 100%;}
+.resp{width: 100%;
+    margin: 0;
+    padding: 0;}
 
 /*...Responsive...*/
 .test{ 
     font-family: Arial, Helvetica, sans-serif;
     display: inline;  
-    margin-left: 600px;
+    float: right;
+    margin-right: 20px;
+    font-size: large;
+    padding: 0;
 }
 
 nav a{
 color: #ffffff;
+
 }
 nav li {
     display:inline;
+   
 }
 nav {
     background-color : #000000;
     padding: 3px;
+    
+  
      }
 aside {
     border: 5px gray;
     position: static;
     background: gray;
     width: 30% ;
+    
 }
 .colonne{
       display: flex;
       margin: 20px 0 20px 0;
+      
     }
     form {
-        width:50%
+        width:50%;
     }
 
 
